@@ -31,7 +31,7 @@ node {
    if (isUnix()) {
       sh "'${mvnHome}/bin/mvn' -DdeployOnly deploy"
    }  else {
-      bat(/"${mvnHome}\bin\mvn" -DdeployOnly deploy -s "C:\Program Files (x86)\apache-maven-3.6.0\conf\setting.xml")
+      bat(/"${mvnHome}\bin\mvn" -DdeployOnly deploy -s "C:\Program Files (x86)\apache-maven-3.6.0\conf\settings.xml")
    }
    }
 
